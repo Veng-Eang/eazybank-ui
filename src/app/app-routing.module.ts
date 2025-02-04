@@ -16,12 +16,12 @@ const routes: Routes = [
   {path:'login',component: LoginComponent}, 
   {path:'contact',component:ContactComponent},
   {path:'notices',component: NoticesComponent},
-  {path: 'account',component: AccountComponent},
-  {path: 'balance',component: BalanceComponent},
+  {path: 'myAccount',component: AccountComponent},
+  {path: 'myBalance',component: BalanceComponent},
   { path: 'dashboard', component: DashboardComponent},
   {path: 'logout',component: LogoutComponent},
-  {path: 'loans',component: LoansComponent},
-  {path: 'cards',component: CardsComponent}
+  {path: 'myLoans',component: LoansComponent},
+  {path: 'myCards',component: CardsComponent}
 ];
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
